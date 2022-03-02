@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<dict>
+		<key>backgroundColor</key>
+		<string>#F3F4F4</string>
+		<key>collectionItemBackgroundColor</key>
+		<string>#FFFFFF</string>
+		<key>collectionItemSubtitleTextColor</key>
+		<string>#969696</string>
+		<key>collectionItemTitleTextColor</key>
+		<string>#0C0E13</string>
+		<key>collectionSeparatorColor</key>
+		<string>#E1E0E3</string>
+		<key>emptyStateTitleTextColor</key>
+		<string>#0C0E13</string>
+		<key>searchBarBackgroundColor</key>
+		<string>#577A79</string>
+		<key>searchBarTintColor</key>
+		<string>#0C0E13</string>
+		<key>searchBarBorderColor</key>
+		<string></string>
+	</dict>
+	<key>areFavouritesEnabled</key>
+	<false/>
+	<key>formatterRegion</key>
+	<string>US</string>
+	<key>phoneNumberFormat</key>
+	<string>international</string>
+	<key>texts</key>
+	<array>
+		<string>navigation.shops_title</string>
+	</array>
+</dict>
+</plist>

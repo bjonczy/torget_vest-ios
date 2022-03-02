@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<dict>
+		<key>consentTitleColor</key>
+		<string>#FFFFFF</string>
+		<key>consentDescriptionColor</key>
+		<string>#FFFFFF</string>
+		<key>continueButtonBackgroundColor</key>
+		<string>#000000</string>
+		<key>continueButtonTitleColor</key>
+		<string>#FFFFFF</string>
+		<key>cancelButtonBackgroundColor</key>
+		<string>#FFFFFF</string>
+		<key>cancelButtonTitleColor</key>
+		<string>#4A4A4A</string>
+		<key>viewBackgroundColor</key>
+		<string>#7B6FAE</string>
+		<key>consentsLogoOutsideTintColor</key>
+		<string>#FFFFFF</string>
+		<key>consentsLogoInsideTintColor</key>
+		<string>#FFFFFF</string>
+	</dict>
+</dict>
+</plist>

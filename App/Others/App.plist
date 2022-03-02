@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<dict>
+		<key>searchBarButtonTextColor</key>
+		<string>#000000</string>
+		<key>keyboardBarButtonTextColor</key>
+		<string>#222222</string>
+		<key>loaderFailureTintColor</key>
+		<string>#222222</string>
+		<key>loaderNormalTintColor</key>
+		<string>#222222</string>
+		<key>loaderSuccessTintColor</key>
+		<string>#222222</string>
+		<key>topBarBackgroundColor</key>
+		<string>#577A79</string>
+		<key>topBarTextColor</key>
+		<string>#ffffff</string>
+		<key>topBarTintColor</key>
+		<string>#ffffff</string>
+	</dict>
+	<key>images</key>
+	<array>
+		<string>app_btnBack</string>
+	</array>
+	<key>texts</key>
+	<dict/>
+	<key>languages</key>
+	<dict>
+		<key>defaultLanguage</key>
+		<string>no</string>
+		<key>supportedLanguages</key>
+		<array>
+			<string>no</string>
+		</array>
+	</dict>
+</dict>
+</plist>

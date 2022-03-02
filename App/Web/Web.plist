@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>config</key>
+		<dict>
+			<key>html</key>
+			<string></string>
+			<key>script</key>
+			<string></string>
+			<key>url</key>
+			<string>http://boostcom.no</string>
+		</dict>
+		<key>name</key>
+		<string>hpa</string>
+		<key>texts</key>
+		<array>
+			<string>web.screen_title</string>
+		</array>
+	</dict>
+</array>
+</plist>

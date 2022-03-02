@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<dict>
+		<key>backgroundColor</key>
+		<string>#F3F4F4</string>
+		<key>pageIndicatorNormalColor</key>
+		<string>#000000</string>
+		<key>pageIndicatorSelectedColor</key>
+		<string>#DDBE85</string>
+		<key>primaryActionButtonBackgroundColor</key>
+		<string>#DDBE85</string>
+		<key>primaryActionButtonTextColor</key>
+		<string>#ffffff</string>
+		<key>welcomePageTextColor</key>
+		<string>#000000</string>
+	</dict>
+	<key>images</key>
+	<array>
+		<string>welcome_imgWelcomePage1</string>
+		<string>welcome_imgWelcomePage2</string>
+		<string>welcome_imgWelcomePage3</string>
+	</array>
+	<key>texts</key>
+	<array>
+		<string>welcome_welcomePageTitle1</string>
+		<string>welcome_welcomePageTitle2</string>
+		<string>welcome_welcomePageTitle3</string>
+	</array>
+</dict>
+</plist>

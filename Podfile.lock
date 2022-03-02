@@ -1,0 +1,302 @@
+PODS:
+  - Analytics (4.11.1):
+    - iAnalytics
+    - iOSKit
+    - ReachabilitySwift (~> 3.0.0)
+  - Articles (4.17.1):
+    - Analytics
+    - CarbonKit
+    - CHTCollectionViewWaterfallLayout
+    - iAnalytics
+    - iOSKit
+    - Web
+  - Aspects (1.4.1)
+  - CarbonKit (1.1.6)
+  - CHTCollectionViewWaterfallLayout (0.9.10):
+    - CHTCollectionViewWaterfallLayout/Swift (= 0.9.10)
+  - CHTCollectionViewWaterfallLayout/Swift (0.9.10)
+  - DZNEmptyDataSet (1.8.1)
+  - FBAEMKit (12.3.2):
+    - FBSDKCoreKit_Basics (= 12.3.2)
+  - FBSDKCoreKit (12.3.2):
+    - FBAEMKit (= 12.3.2)
+    - FBSDKCoreKit_Basics (= 12.3.2)
+  - FBSDKCoreKit_Basics (12.3.2)
+  - Firebase (4.10.1):
+    - Firebase/Core (= 4.10.1)
+  - Firebase/Core (4.10.1):
+    - FirebaseAnalytics (= 4.1.0)
+    - FirebaseCore (= 4.0.17)
+  - Firebase/Messaging (4.10.1):
+    - Firebase/Core
+    - FirebaseMessaging (= 2.1.1)
+  - FirebaseAnalytics (4.1.0):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (4.0.17):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseInstanceID (2.0.10):
+    - FirebaseCore (~> 4.0)
+  - FirebaseMessaging (2.1.1):
+    - FirebaseAnalytics (~> 4.1)
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.5)
+  - FlagKit (2.2)
+  - GoogleToolboxForMac/Defines (2.3.2)
+  - GoogleToolboxForMac/Logger (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - "GoogleToolboxForMac/NSData+zlib (2.3.2)":
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - Hero (1.6.1)
+  - iAnalytics (1.8.1)
+  - Identity (10.7.0):
+    - Analytics
+    - FlagKit
+    - iAnalytics
+    - iOSKit
+    - IQDropDownTextField (~> 1.1.0)
+    - IQKeyboardManager
+    - Web
+  - IGListDiffKit (4.0.0)
+  - IGListKit (4.0.0):
+    - IGListDiffKit (= 4.0.0)
+  - iOSKit (7.11.0):
+    - Aspects (= 1.4.1)
+    - FBSDKCoreKit (~> 12.3.2)
+    - IGListKit
+    - KVNProgress (= 2.2.4)
+    - RealmSwift (= 3.19.0)
+    - Sentry (= 3.13.1)
+    - SwiftyBeaver (>= 1.7.0)
+    - Translations
+  - IQDropDownTextField (1.1.1)
+  - IQKeyboardManager (6.5.9)
+  - KSCrash/Core (1.15.25):
+    - KSCrash/Reporting/Filters/Basic
+  - KSCrash/Recording (1.15.25):
+    - KSCrash/Recording/Tools (= 1.15.25)
+  - KSCrash/Recording/Tools (1.15.25)
+  - KSCrash/Reporting/Filters/Base (1.15.25):
+    - KSCrash/Recording
+  - KSCrash/Reporting/Filters/Basic (1.15.25):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KVNProgress (2.2.4)
+  - MMDrawerController (0.6.0):
+    - MMDrawerController/Core (= 0.6.0)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.6.0)
+    - MMDrawerController/MMDrawerVisualStates (= 0.6.0)
+    - MMDrawerController/Subclass (= 0.6.0)
+  - MMDrawerController/Core (0.6.0)
+  - MMDrawerController/MMDrawerBarButtonItem (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.6.0):
+    - MMDrawerController/Core
+  - nanopb (0.3.9011):
+    - nanopb/decode (= 0.3.9011)
+    - nanopb/encode (= 0.3.9011)
+  - nanopb/decode (0.3.9011)
+  - nanopb/encode (0.3.9011)
+  - Navigation (4.2.0):
+    - CarbonKit
+    - iAnalytics
+    - Identity
+    - iOSKit
+    - MMDrawerController
+    - Web
+    - WelcomePages
+  - Offers (2.4.0):
+    - Hero
+    - iAnalytics
+    - Identity
+    - IGListKit
+    - iOSKit
+    - KVNProgress (= 2.2.4)
+    - Web
+  - OpeningHours (3.9.0):
+    - Analytics
+    - DZNEmptyDataSet
+    - iAnalytics
+    - iOSKit
+  - Protobuf (3.19.4)
+  - Pushr (4.10.0):
+    - Firebase (= 4.10.1)
+    - Firebase/Core
+    - Firebase/Messaging (= 4.10.1)
+    - iAnalytics
+    - iOSKit
+    - ReachabilitySwift (= 3.0.0)
+  - ReachabilitySwift (3)
+  - Realm (3.19.0):
+    - Realm/Headers (= 3.19.0)
+  - Realm/Headers (3.19.0)
+  - RealmSwift (3.19.0):
+    - Realm (= 3.19.0)
+  - Sentry (3.13.1):
+    - Sentry/Core (= 3.13.1)
+    - Sentry/KSCrash (= 3.13.1)
+  - Sentry/Core (3.13.1)
+  - Sentry/KSCrash (3.13.1):
+    - KSCrash/Core (~> 1.15.12)
+  - Shops (5.9.0):
+    - DZNEmptyDataSet
+    - iAnalytics
+    - iOSKit
+  - SwiftyBeaver (1.9.5)
+  - Translations (2.2.140)
+  - vcs (4.3.1):
+    - Analytics
+    - iAnalytics
+    - iOSKit
+  - Web (5.3.3):
+    - iAnalytics
+    - iOSKit
+  - WelcomePages (3.2.2):
+    - CarbonKit
+    - iAnalytics
+    - iOSKit
+
+DEPENDENCIES:
+  - Analytics (from `components/analytics`)
+  - Articles (from `components/articles`)
+  - "CarbonKit (from `git@bitbucket.org:boost-development/ios_carbonkit.git`)"
+  - iAnalytics (from `components/ianalytics`)
+  - Identity (from `components/identity`)
+  - iOSKit (from `components/ioskit`)
+  - "MMDrawerController (from `git@bitbucket.org:boost-development/mmdrawercontroller.git`)"
+  - Navigation (from `components/navigation`)
+  - Offers (from `components/offers`)
+  - OpeningHours (from `components/openinghours`)
+  - Pushr (from `components/pushr`)
+  - Shops (from `components/shops`)
+  - Translations (from `components/translations`)
+  - vcs (from `components/vcs`)
+  - Web (from `components/web`)
+  - WelcomePages (from `components/welcomepages`)
+
+SPEC REPOS:
+  trunk:
+    - Aspects
+    - CHTCollectionViewWaterfallLayout
+    - DZNEmptyDataSet
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FlagKit
+    - GoogleToolboxForMac
+    - Hero
+    - IGListDiffKit
+    - IGListKit
+    - IQDropDownTextField
+    - IQKeyboardManager
+    - KSCrash
+    - KVNProgress
+    - nanopb
+    - Protobuf
+    - ReachabilitySwift
+    - Realm
+    - RealmSwift
+    - Sentry
+    - SwiftyBeaver
+
+EXTERNAL SOURCES:
+  Analytics:
+    :path: components/analytics
+  Articles:
+    :path: components/articles
+  CarbonKit:
+    :git: "git@bitbucket.org:boost-development/ios_carbonkit.git"
+  iAnalytics:
+    :path: components/ianalytics
+  Identity:
+    :path: components/identity
+  iOSKit:
+    :path: components/ioskit
+  MMDrawerController:
+    :git: "git@bitbucket.org:boost-development/mmdrawercontroller.git"
+  Navigation:
+    :path: components/navigation
+  Offers:
+    :path: components/offers
+  OpeningHours:
+    :path: components/openinghours
+  Pushr:
+    :path: components/pushr
+  Shops:
+    :path: components/shops
+  Translations:
+    :path: components/translations
+  vcs:
+    :path: components/vcs
+  Web:
+    :path: components/web
+  WelcomePages:
+    :path: components/welcomepages
+
+CHECKOUT OPTIONS:
+  CarbonKit:
+    :commit: d514eec992da94c158d08ef29cbcc1f8317bb6bb
+    :git: "git@bitbucket.org:boost-development/ios_carbonkit.git"
+  MMDrawerController:
+    :commit: fac37b6d632d8f7b9319b92cbd83a52d94a9b4cc
+    :git: "git@bitbucket.org:boost-development/mmdrawercontroller.git"
+
+SPEC CHECKSUMS:
+  Analytics: e69bb36ccd1a4d5e3e7f3360aeceaca8e36ed884
+  Articles: be0bb71ce823d5fd0ffef440d073f71fed3cc432
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  CarbonKit: 1aea2ba5adaf70008ded1b0dc7176f1437aa6eca
+  CHTCollectionViewWaterfallLayout: b989a459788d7657ac010e03bc0f7eedca95a420
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FBAEMKit: 955ca52eba8219c20f90774e8c6ff8bc7b3192a3
+  FBSDKCoreKit: 678f64eda3f0ff25c189c2ebbfe87b1d96a85a6d
+  FBSDKCoreKit_Basics: 6bee7c1f0932432901781203fa5e587ec5099148
+  Firebase: 92c6ba593e32db0defde464a9adc981d5cb49f97
+  FirebaseAnalytics: 3dfae28d4a5e06f86c4fae830efc2ad3fadb19bc
+  FirebaseCore: 872307b001bbefda1dfa0dbfffa50a6919023d4a
+  FirebaseInstanceID: 8d20d890d65c917f9f7d9950b6e10a760ad34321
+  FirebaseMessaging: db0e01c52ef7e1f42846431273558107d084ede4
+  FlagKit: eca7dc89064b0c986302ba9acefad1bf80a435b1
+  GoogleToolboxForMac: 8bef7c7c5cf7291c687cf5354f39f9db6399ad34
+  Hero: 215865ba3ae41dd9bb08cd6c60a645529c6fc94b
+  iAnalytics: f5f67bd87952f3c685c86d1ccc12eb7eb486d6cb
+  Identity: 56489b5fc247690341c247d459609dba6170863a
+  IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
+  IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
+  iOSKit: a7a09adf11ffb2ed54fe9c2cb53797d2fb292d34
+  IQDropDownTextField: 3d2e5728a2b83ff5dbb14cb9b497a80005124cbe
+  IQKeyboardManager: 241cc94ccabc9deb8f8bd7d12f00d73288d13ecc
+  KSCrash: 6689ba5c43800f831b68928ccdbcc8b201d4dd86
+  KVNProgress: 541edcea5a1fef592aceac8d791a410d38cb499d
+  MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
+  nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
+  Navigation: f2a51bec5264d0918bca5cff55e304c84ac28f71
+  Offers: f5785f67434e20456f9e380e5606a6985b080852
+  OpeningHours: 2fc46c2d9fa4ebc0881c82ac0794e64f3b1b1451
+  Protobuf: 235750e4696ff59fb07d949a9dbbc92b3c0700fe
+  Pushr: 6ca190f21997949e4ad8c205ffc28c4b12fb8e90
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  Realm: 995d585bcf699aaff226715886c849a29dd3d07f
+  RealmSwift: 35f284a537989f2187b413e5917091948cb87a3f
+  Sentry: c6c852d5a982dd42de8c35f7da4116af6081ebbd
+  Shops: 55ba2b3ecc4d0bbdd5092e0a30291e4671bc6d80
+  SwiftyBeaver: 84069991dd5dca07d7069100985badaca7f0ce82
+  Translations: 4754effc24710fcaa489011606f7ec4dae7095e7
+  vcs: d88649f90f26f6ab05f811c038d2fc5ad6d69300
+  Web: c4f59fbdd1a0e396eb0e46d14e1223c0fd8079f7
+  WelcomePages: 8bd1158b4dae2e1913130545671a3431b43f3e1e
+
+PODFILE CHECKSUM: 3a093a41400c64d7beec8f1128fed49f719fef38
+
+COCOAPODS: 1.11.2

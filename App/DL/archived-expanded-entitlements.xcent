@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>aps-environment</key>
+    <string>development</string>
+    <key>com.apple.developer.associated-domains</key>
+    <array>
+        <string>applinks:member.placewise.com</string>
+        <string>applinks:pwg.ai</string>
+        <string>applinks:a.pwg.ai</string>
+        <string>applinks:member.bstcm.no</string>
+        <string>applinks:bst.tc</string>
+        <string>applinks:member.boostcom.no</string>
+        <string>applinks:member.dev.placewise.com</string>
+        <string>applinks:member.dev.bstcm.no</string>
+        <string>applinks:member.dev.boostcom.no</string>
+        <string>applinks:shortener.dev.boostcom.no</string>
+    </array>
+</dict>
+</plist>

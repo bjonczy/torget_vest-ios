@@ -1,0 +1,51 @@
+[submodule "vendors/analytics"]
+	path = vendors/analytics
+	url = git@bitbucket.org:boost-development/analytics-ios.git
+[submodule "components/analytics"]
+	path = components/analytics
+	url = git@bitbucket.org:boost-development/analytics-ios.git
+[submodule "components/articles"]
+	path = components/articles
+	url = git@bitbucket.org:boost-development/articles-ios.git
+[submodule "components/ianalytics"]
+	path = components/ianalytics
+	url = git@bitbucket.org:boost-development/ianalytics-ios.git
+[submodule "components/identity"]
+	path = components/identity
+	url = git@bitbucket.org:boost-development/identity-ios.git
+[submodule "components/ioskit"]
+	path = components/ioskit
+	url = git@bitbucket.org:boost-development/ioskit-ios.git
+[submodule "components/navigation"]
+	path = components/navigation
+	url = git@bitbucket.org:boost-development/navigation-ios.git
+[submodule "components/openinghours"]
+	path = components/openinghours
+	url = git@bitbucket.org:boost-development/openinghours-ios.git
+[submodule "components/pushr"]
+	path = components/pushr
+	url = git@bitbucket.org:boost-development/pushr-ios.git
+[submodule "components/shops"]
+	path = components/shops
+	url = git@bitbucket.org:boost-development/shops-ios.git
+[submodule "components/vcs"]
+	path = components/vcs
+	url = git@bitbucket.org:boost-development/vcs-ios.git
+[submodule "components/web"]
+	path = components/web
+	url = git@bitbucket.org:boost-development/web-ios.git
+[submodule "components/welcomepages"]
+	path = components/welcomepages
+	url=git@bitbucket.org:boost-development/welcomepages-ios
+[submodule "components/translations"]
+	path = components/translations
+	url = git@bitbucket.org:boost-development/translations-ios.git
+[submodule "components/tests"]
+	path = components/tests
+	url = git@bitbucket.org:boost-development/app-tests-ios.git
+[submodule "Utilities"]
+	path = Utilities
+	url = git@bitbucket.org:boost-development/utilities.git
+[submodule "components/offers"]
+	path = components/offers
+	url = git@bitbucket.org:boost-development/offers-ios.git
