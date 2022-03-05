@@ -4,24 +4,24 @@
 <dict>
 	<key>colors</key>
 	<dict>
+		<key>formFieldTintColor</key>
+		<string>#6B6B6B</string>
 		<key>backgroundColor</key>
-		<string>#F3F4F4</string>
+		<string>#F1F3F3</string>
 		<key>loginBackgroundColor</key>
-		<string>#F3F4F4</string>
+		<string>#F1F3F3</string>
 		<key>resetPasswordButtonTextColor</key>
-		<string>#8F989E</string>
+		<string>#6B6B6B</string>
 		<key>formFieldNormalColor</key>
-		<string>#222222</string>
+		<string>#6B6B6B</string>
 		<key>formFieldPlaceholderTextColor</key>
 		<string>#8F989E</string>
 		<key>formFieldSelectedColor</key>
-		<string>#222222</string>
-		<key>formFieldTintColor</key>
-		<string>#222222</string>
+		<string>#6B6B6B</string>
 		<key>formFieldValueTextColor</key>
-		<string>#222222</string>
+		<string>#6B6B6B</string>
 		<key>loginButtonBackgroundColor</key>
-		<string>#DDBE85</string>
+		<string>#A2C3B9</string>
 		<key>loginButtonTextColor</key>
 		<string>#FFFFFF</string>
 		<key>loginFormFieldBackgroundColor</key>
@@ -29,33 +29,33 @@
 		<key>loginFormFieldBorderColor</key>
 		<string>#ffffff</string>
 		<key>loginFormFieldNormalColor</key>
-		<string>#146FB7</string>
+		<string>#6B6B6B</string>
 		<key>loginFormFieldPlaceholderTextColor</key>
 		<string>#4A4A4A</string>
 		<key>loginFormFieldSelectedColor</key>
-		<string>#000000</string>
+		<string>#6B6B6B</string>
 		<key>loginFormFieldTintColor</key>
-		<string>#000000</string>
+		<string>#6B6B6B</string>
 		<key>loginFormFieldValueTextColor</key>
-		<string>#000000</string>
+		<string>#6B6B6B</string>
 		<key>loginHeaderTextColor</key>
-		<string>#FFFFFF</string>
+		<string>#6B6B6B</string>
 		<key>memberCardFooterBackgroundColor</key>
-		<string>#577A79</string>
-		<key>memberCardFooterTextColor</key>
-		<string>#FFFFFF</string>
-		<key>memberCardSubtitleTextColor</key>
-		<string>#ffffff</string>
-		<key>memberCardTitleTextColor</key>
-		<string>#ffffff</string>
-		<key>sectionFooterTextColor</key>
-		<string>#232222</string>
-		<key>sectionHeaderTextColor</key>
-		<string>#232222</string>
-		<key>termsAndConditionsButtonTextColor</key>
-		<string>#232222</string>
-		<key>iconFormTintColor</key>
 		<string></string>
+		<key>memberCardFooterTextColor</key>
+		<string>#6B6B6B</string>
+		<key>memberCardSubtitleTextColor</key>
+		<string>#000000</string>
+		<key>memberCardTitleTextColor</key>
+		<string>#000000</string>
+		<key>sectionFooterTextColor</key>
+		<string>#6B6B6B</string>
+		<key>sectionHeaderTextColor</key>
+		<string>#6B6B6B</string>
+		<key>termsAndConditionsButtonTextColor</key>
+		<string>#6B6B6B</string>
+		<key>iconFormTintColor</key>
+		<string>#6B6B6B</string>
 	</dict>
 	<key>texts</key>
 	<array/>

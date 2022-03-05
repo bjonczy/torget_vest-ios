@@ -11,10 +11,12 @@ import Shops
 import Pushr
 import WelcomePages
 import Offers
+import Parking
 
 public enum ComponentFactoryInputType {
     case identity
 	case articles
+    case parking
     case events
 	case welcomePages
 	case iOSKit
@@ -154,6 +156,10 @@ class ComponentFactory {
                 deepLinkHandler: DeepLinker(router: AppRouter.self, component: ComponentFactory.shared.make(.deepLinking) as! DLComponent),
                 router: AppRouter.self
             )
+        case .parking:
+            let identityComponent = ComponentFactory.shared.make(.identity) as! IdentityComponent
+            let repository = IdentityParkingRepository(identityComponent: identityComponent)
+            return ParkingComponent(repository: repository, router: AppRouter.self)
 		}
     }
 

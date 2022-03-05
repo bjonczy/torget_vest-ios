@@ -6,15 +6,15 @@
 		<key>colors</key>
 		<dict>
 			<key>backgroundColor</key>
-			<string>#F3F4F4</string>
+			<string>#F1F3F3</string>
 			<key>collectionItemDescriptionTextColor</key>
-			<string>#000000</string>
+			<string>#6B6B6B</string>
 			<key>collectionItemTitleTextColor</key>
-			<string>#0C0E13</string>
+			<string>#6B6B6B</string>
 			<key>collectionItemBorderColor</key>
-			<string>#DCDCDC</string>
+			<string></string>
 			<key>emptyStateTitleTextColor</key>
-			<string>#0C0E13</string>
+			<string>#6B6B6B</string>
 			<key>pageTabBackgroundColor</key>
 			<string>#ffffff</string>
 			<key>pageTabIndicatorColor</key>

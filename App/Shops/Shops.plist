@@ -17,16 +17,16 @@
 		<key>emptyStateTitleTextColor</key>
 		<string>#0C0E13</string>
 		<key>searchBarBackgroundColor</key>
-		<string>#577A79</string>
+		<string>#A2C3B9</string>
 		<key>searchBarTintColor</key>
-		<string>#0C0E13</string>
+		<string>#A2C3B9</string>
 		<key>searchBarBorderColor</key>
 		<string></string>
 	</dict>
 	<key>areFavouritesEnabled</key>
 	<false/>
 	<key>formatterRegion</key>
-	<string>US</string>
+	<string>NO</string>
 	<key>phoneNumberFormat</key>
 	<string>international</string>
 	<key>texts</key>

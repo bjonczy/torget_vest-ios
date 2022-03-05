@@ -2,26 +2,31 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>config</key>
+	<dict>
+		<key>isForceConsentsEnabled</key>
+		<true/>
+	</dict>
 	<key>colors</key>
 	<dict>
 		<key>consentTitleColor</key>
-		<string>#FFFFFF</string>
+		<string>#6B6B6B</string>
 		<key>consentDescriptionColor</key>
-		<string>#FFFFFF</string>
+		<string>#6B6B6B</string>
 		<key>continueButtonBackgroundColor</key>
-		<string>#000000</string>
+		<string>#A2C3B9</string>
 		<key>continueButtonTitleColor</key>
 		<string>#FFFFFF</string>
 		<key>cancelButtonBackgroundColor</key>
 		<string>#FFFFFF</string>
 		<key>cancelButtonTitleColor</key>
-		<string>#4A4A4A</string>
+		<string>#6B6B6B</string>
 		<key>viewBackgroundColor</key>
-		<string>#7B6FAE</string>
+		<string>#FFFFFF</string>
 		<key>consentsLogoOutsideTintColor</key>
-		<string>#FFFFFF</string>
+		<string>#333333</string>
 		<key>consentsLogoInsideTintColor</key>
-		<string>#FFFFFF</string>
+		<string>#333333</string>
 	</dict>
 </dict>
 </plist>

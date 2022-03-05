@@ -124,6 +124,9 @@ PODS:
     - DZNEmptyDataSet
     - iAnalytics
     - iOSKit
+  - Parking (0.4.0):
+    - Identity
+    - iOSKit
   - Protobuf (3.19.4)
   - Pushr (4.10.0):
     - Firebase (= 4.10.1)
@@ -173,6 +176,7 @@ DEPENDENCIES:
   - Navigation (from `components/navigation`)
   - Offers (from `components/offers`)
   - OpeningHours (from `components/openinghours`)
+  - Parking (from `components/parking`)
   - Pushr (from `components/pushr`)
   - Shops (from `components/shops`)
   - Translations (from `components/translations`)
@@ -231,6 +235,8 @@ EXTERNAL SOURCES:
     :path: components/offers
   OpeningHours:
     :path: components/openinghours
+  Parking:
+    :path: components/parking
   Pushr:
     :path: components/pushr
   Shops:
@@ -284,6 +290,7 @@ SPEC CHECKSUMS:
   Navigation: f2a51bec5264d0918bca5cff55e304c84ac28f71
   Offers: f5785f67434e20456f9e380e5606a6985b080852
   OpeningHours: 2fc46c2d9fa4ebc0881c82ac0794e64f3b1b1451
+  Parking: 5f2a7711c7675ae4ab11f6d4186ae34f1253fb43
   Protobuf: 235750e4696ff59fb07d949a9dbbc92b3c0700fe
   Pushr: 6ca190f21997949e4ad8c205ffc28c4b12fb8e90
   ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
@@ -297,6 +304,6 @@ SPEC CHECKSUMS:
   Web: c4f59fbdd1a0e396eb0e46d14e1223c0fd8079f7
   WelcomePages: 8bd1158b4dae2e1913130545671a3431b43f3e1e
 
-PODFILE CHECKSUM: 3a093a41400c64d7beec8f1128fed49f719fef38
+PODFILE CHECKSUM: fc01b5271aa7ac12999ca47cd255101780344d56
 
 COCOAPODS: 1.11.2

@@ -5,11 +5,11 @@
 	<key>colors</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#F3F4F4</string>
+		<string>#F1F3F3</string>
 		<key>buttonBackgroundColor</key>
-		<string>#DDBE85</string>
+		<string>#A2C3B9</string>
 		<key>titleTextColor</key>
-		<string>#000000</string>
+		<string>#6B6B6B</string>
 		<key>buttonTextColor</key>
 		<string>#ffffff</string>
 	</dict>

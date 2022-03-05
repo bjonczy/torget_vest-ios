@@ -49,3 +49,6 @@
 [submodule "components/offers"]
 	path = components/offers
 	url = git@bitbucket.org:boost-development/offers-ios.git
+[submodule "components/parking"]
+	path = components/parking
+	url = git@bitbucket.org:boost-development/parking-ios.git

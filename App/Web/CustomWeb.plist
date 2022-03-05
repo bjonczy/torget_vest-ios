@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>config</key>
+	<dict>
+		<key>game</key>
+		<dict>
+			<key>useLanguageHeader</key>
+			<false/>
+			<key>staging</key>
+			<dict>
+				<key>url</key>
+				<string>https://loyaltygames.bstcm.no/games/client/torget-vest</string>
+			</dict>
+			<key>production</key>
+			<dict>
+				<key>url</key>
+				<string>https://loyaltygames.bstcm.no/games/client/torget-vest</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

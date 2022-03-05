@@ -10,7 +10,24 @@
 			<key>script</key>
 			<string></string>
 			<key>url</key>
-			<string>http://boostcom.no</string>
+			<string>https://cs.bstcm.no/torget-vest/</string>
+		</dict>
+		<key>name</key>
+		<string>hme</string>
+		<key>texts</key>
+		<array>
+			<string>web.screen_title_home</string>
+		</array>
+	</dict>
+	<dict>
+		<key>config</key>
+		<dict>
+			<key>html</key>
+			<string></string>
+			<key>script</key>
+			<string></string>
+			<key>url</key>
+			<string>https://www.torgetvest.no/</string>
 		</dict>
 		<key>name</key>
 		<string>hpa</string>

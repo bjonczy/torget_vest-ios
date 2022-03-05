@@ -1,0 +1,35 @@
+/*
+ * Loco ios export: iOS Localizable.strings
+ * Project: iOS
+ * Release: Working copy
+ * Locale: no-NO, Norwegian (Norway)
+ * Tagged: InfoPlist
+ * Exported by: Axel Zuziak
+ * Exported at: Sat, 05 Mar 2022 10:10:43 +0100
+ */
+
+/* loco:5a97fa0e820ee9147c8b4567
+ * Bluetooth permission - for Beacons */
+"NSBluetoothPeripheralUsageDescription" = "For å kunne koble deg til nærmeste beacon må bluetooth være påslått.";
+
+/* loco:5a97fa3b820ee9147c8b4569
+ * GPS permission - for shops and Beacons */
+"NSLocationAlwaysUsageDescription" = "For å kunne koble deg til nærmeste beacon må stedstjenester være påslått.";
+
+/* loco:5a97fa5d820ee9177c8b4568
+ * GPS permission - for shops and Beacons */
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "For å kunne koble deg til nærmeste beacon må stedstjenester være påslått.";
+
+/* loco:5a97fa70820ee91d7c8b4567
+ * GPS permission - for shops and Beacons */
+"NSLocationWhenInUseUsageDescription" = "For å kunne koble deg til nærmeste beacon må stedstjenester være påslått.";
+
+/* loco:5a97fa86820ee91e7c8b456b
+ * Contacts permission - for refer a friend */
+"NSContactsUsageDescription" = "For å kunne invitere dine venner trenger vi deres mobilnummer.";
+
+/* loco:5d6fbb91ed0cfa41f0335472 */
+"NSCameraUsageDescription" = "Vi trenger tilgang til kameraet for å scanne QR-koder";
+
+/* loco:60ab568a6c23a65c701bb762 */
+"NSUserTrackingUsageDescription" = "Dine data vil bli brukt til å levere personlige tilpasset tilbud og annonser til deg. Uten samtykke vil vi ikke kunne levere personlig tilpasset kommunikasjon.";

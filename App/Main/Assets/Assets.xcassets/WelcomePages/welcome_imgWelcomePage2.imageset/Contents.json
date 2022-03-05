@@ -5,8 +5,8 @@
       "scale" : "1x"
     },
     {
+      "filename" : "Simulator Screen Shot - iPhone 13 Pro Max - 2022-03-05 at 10.07.57_framed.png",
       "idiom" : "universal",
-      "filename" : "1_framed.png",
       "scale" : "2x"
     },
     {
@@ -15,7 +15,7 @@
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   }
 }

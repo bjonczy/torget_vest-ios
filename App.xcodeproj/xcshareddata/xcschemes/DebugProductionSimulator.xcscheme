@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CCFAF29D1BF2329C00A6B4E9"
-               BuildableName = "starter.app"
+               BuildableName = "torgetvest.app"
                BlueprintName = "Main"
                ReferencedContainer = "container:App.xcodeproj">
             </BuildableReference>
@@ -23,7 +23,7 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "DebugProduction"
+      buildConfiguration = "DebugProductionSimulator"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
@@ -31,7 +31,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CCFAF29D1BF2329C00A6B4E9"
-            BuildableName = "starter.app"
+            BuildableName = "torgetvest.app"
             BlueprintName = "Main"
             ReferencedContainer = "container:App.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CCFAF29D1BF2329C00A6B4E9"
-            BuildableName = "starter.app"
+            BuildableName = "torgetvest.app"
             BlueprintName = "Main"
             ReferencedContainer = "container:App.xcodeproj">
          </BuildableReference>
@@ -81,7 +81,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CCFAF29D1BF2329C00A6B4E9"
-            BuildableName = "starter.app"
+            BuildableName = "torgetvest.app"
             BlueprintName = "Main"
             ReferencedContainer = "container:App.xcodeproj">
          </BuildableReference>

@@ -1,4 +1,5 @@
 import UIKit
+import Parking
 import Web
 import iOSKit
 import Articles
@@ -54,6 +55,18 @@ public class NavigationViewControllersFactory: AbstractNavigationViewControllerF
         case "events":
             let component = ComponentFactory.shared.make(.events) as! EventsComponent
             viewController = UIStoryboard.articlesRootViewController(with: component, arguments: arguments)
+        case "parking":
+            let component = ComponentFactory.shared.make(.parking) as! ParkingComponent
+            viewController = UIStoryboard.parkingViewController(component: component)
+        case "games":
+            let identityComponent = ComponentFactory.shared.make(.identity) as! IdentityComponent
+            let webComponent = ComponentFactory.shared.make(.webpage) as! AbstractWebComponent
+            let component = CustomWebComponent(with: webComponent,
+                                               router: AppRouter.self,
+                                               userSession: UserSession.sharedSession,
+                                               type: .games)
+            viewController = UIStoryboard.customWebViewController(with: component,
+                                                              authManager: AuthManager(component: identityComponent))
         default:
             viewController = nil
         }

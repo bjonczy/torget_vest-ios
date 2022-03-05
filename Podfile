@@ -23,6 +23,7 @@ target 'Main' do
     pod 'Pushr', 				        :path => basePath + '/pushr'
     pod 'Articles', 			        :path => basePath + '/articles'
     pod 'Shops', 				        :path => basePath + '/shops'
+    pod 'Parking',                 :path => basePath + '/parking'
     pod 'OpeningHours', 		        :path => basePath + '/openinghours'
     pod 'Translations',                 :path => basePath + '/translations'
     

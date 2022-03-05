@@ -7,15 +7,15 @@
 		<key>navigationItemBackgroundNormalColor</key>
 		<string></string>
 		<key>navigationItemBackgroundSelectedColor</key>
-		<string>#ffffff</string>
+		<string>#3D8E97</string>
 		<key>navigationItemIconNormalColor</key>
-		<string>#CBAF7B</string>
+		<string>#333333</string>
 		<key>navigationItemIconSelectedColor</key>
-		<string>#CBAF7B</string>
+		<string>#FFFFFF</string>
 		<key>navigationItemTextNormalColor</key>
-		<string>#CBAF7B</string>
+		<string>#333333</string>
 		<key>navigationItemTextSelectedColor</key>
-		<string>#CBAF7B</string>
+		<string>#FFFFFF</string>
 		<key>navigationItemSeparatingLineColor</key>
 		<string></string>
 	</dict>
@@ -23,17 +23,17 @@
 	<array>
 		<dict>
 			<key>component</key>
-			<string>articles_news</string>
+			<string>web_home</string>
 			<key>image</key>
-			<string>navigation_imgNavigationItemArticles</string>
+			<string>navigation_imgNavigationItemHome</string>
 			<key>requireAuthentication</key>
 			<false/>
 			<key>screenName</key>
-			<string>art</string>
+			<string>hme</string>
 			<key>slug</key>
-			<string>articles</string>
+			<string>web</string>
 			<key>title</key>
-			<string>navigation.articles_title</string>
+			<string>navigation.home_title</string>
 			<key>visibilityScopes</key>
 			<array>
 				<string>guest</string>
@@ -57,6 +57,44 @@
 			<array>
 				<string>cpn</string>
 			</array>
+			<key>visibilityScopes</key>
+			<array>
+				<string>guest</string>
+				<string>authenticated</string>
+			</array>
+		</dict>
+		<dict>
+			<key>component</key>
+			<string>games</string>
+			<key>image</key>
+			<string>navigation_imgNavigationItemGame</string>
+			<key>requireAuthentication</key>
+			<false/>
+			<key>screenName</key>
+			<string>gam</string>
+			<key>slug</key>
+			<string>games</string>
+			<key>title</key>
+			<string>navigation.games_title</string>
+			<key>visibilityScopes</key>
+			<array>
+				<string>guest</string>
+				<string>authenticated</string>
+			</array>
+		</dict>
+		<dict>
+			<key>component</key>
+			<string>articles_news</string>
+			<key>image</key>
+			<string>navigation_imgNavigationItemArticles</string>
+			<key>requireAuthentication</key>
+			<false/>
+			<key>screenName</key>
+			<string>nws</string>
+			<key>slug</key>
+			<string>articles</string>
+			<key>title</key>
+			<string>navigation.articles_title</string>
 			<key>visibilityScopes</key>
 			<array>
 				<string>guest</string>
@@ -136,6 +174,29 @@
 			<array>
 				<string>guest</string>
 				<string>authenticated</string>
+			</array>
+		</dict>
+		<dict>
+			<key>component</key>
+			<string>parking</string>
+			<key>image</key>
+			<string>navigation_imgNavigationItemParking</string>
+			<key>requireAuthentication</key>
+			<false/>
+			<key>screenName</key>
+			<string>prk</string>
+			<key>slug</key>
+			<string>parking</string>
+			<key>title</key>
+			<string>navigation.parking_title</string>
+			<key>visibilityScopes</key>
+			<array>
+				<string>guest</string>
+				<string>authenticated</string>
+			</array>
+			<key>registeredSlugs</key>
+			<array>
+				<string>parking</string>
 			</array>
 		</dict>
 		<dict>

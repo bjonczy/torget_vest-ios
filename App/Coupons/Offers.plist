@@ -5,19 +5,19 @@
 	<key>colors</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#F3F4F4</string>
+		<string>#F1F3F3</string>
 		<key>couponBackgroundColor</key>
-		<string>#F3F4F4</string>
+		<string>#F1F3F3</string>
 		<key>couponDescriptionTextColor</key>
-		<string>#9B9B9B</string>
+		<string>#6B6B6B</string>
 		<key>couponSubtitleTextColor</key>
-		<string>#000000</string>
+		<string>#6B6B6B</string>
 		<key>couponTitleTextColor</key>
-		<string>#000000</string>
+		<string>#6B6B6B</string>
 		<key>emptyStateTitleTextColor</key>
-		<string>#0C0E13</string>
+		<string>#6B6B6B</string>
 		<key>fabBackgroundColor</key>
-		<string>#DDBE85</string>
+		<string>#A2C3B9</string>
 		<key>pageTabBackgroundColor</key>
 		<string>#577A79</string>
 		<key>pageTabIndicatorColor</key>
@@ -35,37 +35,37 @@
 		<key>ribbonUsedColor</key>
 		<string>#E2E2E2</string>
 		<key>ribbonNormalColor</key>
-		<string>#F3F3F3</string>
+		<string>#3D8E97</string>
 		<key>previewRibbonTextColor</key>
 		<string>#FFFFFF</string>
 		<key>previewRibbonBackgroundColor</key>
-		<string>#0093B2</string>
+		<string>#333333</string>
 		<key>usedRibbonTextColor</key>
 		<string>#FFFFFF</string>
 		<key>usedRibbonBackgroundColor</key>
 		<string>#7A7A7A</string>
 		<key>indicatorColor</key>
-		<string>#0093B2</string>
+		<string>#A2C3B9</string>
 		<key>filterButtonBackgroundColor</key>
-		<string>#DADADA</string>
+		<string>#E2E2E2</string>
 		<key>filterButtonSelectedBackgroundColor</key>
 		<string>#0093B2</string>
 		<key>gridIconColor</key>
-		<string>#DADADA</string>
+		<string>#E2E2E2</string>
 		<key>selectedGridIconColor</key>
-		<string>#0093B2</string>
+		<string>#333333</string>
 		<key>listIconColor</key>
-		<string>#DADADA</string>
+		<string>#E2E2E2</string>
 		<key>selectedListIconColor</key>
-		<string>#0093B2</string>
+		<string>#333333</string>
 		<key>likeImageColor</key>
-		<string>#0093B2</string>
+		<string>#333333</string>
 		<key>dislikeImageColor</key>
-		<string>#0093B2</string>
+		<string>#333333</string>
 		<key>likesSelectedImageColor</key>
-		<string>#0093B2</string>
+		<string>#333333</string>
 		<key>likesUnselectedImageColor</key>
-		<string>#0093B2</string>
+		<string>#E2E2E2</string>
 	</dict>
 	<key>texts</key>
 	<array>

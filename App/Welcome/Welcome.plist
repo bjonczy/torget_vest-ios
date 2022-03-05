@@ -5,17 +5,17 @@
 	<key>colors</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#F3F4F4</string>
+		<string>#F1F3F3</string>
 		<key>pageIndicatorNormalColor</key>
 		<string>#000000</string>
 		<key>pageIndicatorSelectedColor</key>
-		<string>#DDBE85</string>
+		<string>#A2C3B9</string>
 		<key>primaryActionButtonBackgroundColor</key>
-		<string>#DDBE85</string>
+		<string>#A2C3B9</string>
 		<key>primaryActionButtonTextColor</key>
 		<string>#ffffff</string>
 		<key>welcomePageTextColor</key>
-		<string>#000000</string>
+		<string>#6B6B6B</string>
 	</dict>
 	<key>images</key>
 	<array>

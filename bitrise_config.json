@@ -1,8 +1,8 @@
 {
-    "bundle_id": "com.boostcom.starter",
-    "team_id": "GURSHWLU6N",
+    "bundle_id": "com.placewise.torget-vest",
+    "team_id": "G9N5N6QUB2",
     "tf_team_id": "45703800",
-    "repo_url": "git@bitbucket.org:boost-development/starter-ios.git",
-    "app_name": "starter-ios",
+    "repo_url": "git@bitbucket.org:boost-development/torget_vest-ios.git",
+    "app_name": "torget_vest-ios",
     "stack_id": "osx-xcode-12.0.x"
 }
