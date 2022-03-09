@@ -2,8 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>isShopsImageViewEnabled</key>
+	<true/>
 	<key>colors</key>
 	<dict>
+		<key>filterBackgroundColor</key>
+		<string>#FFFFFF</string>
+		<key>filterButtonColor</key>
+		<string>#333333</string>
+		<key>filters_backgroundColor</key>
+		<string>#EDEDED</string>
+		<key>filters_selectedBackgroundColor</key>
+		<string>#A2C3B9</string>
+		<key>filters_textColor</key>
+		<string>#4A4A4A</string>
+		<key>filters_selectedTextColor</key>
+		<string>#ffffff</string>
 		<key>backgroundColor</key>
 		<string>#F3F4F4</string>
 		<key>collectionItemBackgroundColor</key>

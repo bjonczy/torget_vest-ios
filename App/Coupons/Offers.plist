@@ -4,6 +4,8 @@
 <dict>
 	<key>colors</key>
 	<dict>
+		<key>fabTextColor</key>
+		<string>#434552</string>
 		<key>backgroundColor</key>
 		<string>#F1F3F3</string>
 		<key>couponBackgroundColor</key>
@@ -29,7 +31,7 @@
 		<key>timerBackgroundColor</key>
 		<string>#F3F4F4</string>
 		<key>timerCountdownTextColor</key>
-		<string>#FFFFFF</string>
+		<string>#333333</string>
 		<key>timerExpirationTextColor</key>
 		<string>#686868</string>
 		<key>ribbonUsedColor</key>
@@ -49,7 +51,7 @@
 		<key>filterButtonBackgroundColor</key>
 		<string>#E2E2E2</string>
 		<key>filterButtonSelectedBackgroundColor</key>
-		<string>#0093B2</string>
+		<string>#333333</string>
 		<key>gridIconColor</key>
 		<string>#E2E2E2</string>
 		<key>selectedGridIconColor</key>

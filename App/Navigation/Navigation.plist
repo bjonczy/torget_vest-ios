@@ -248,9 +248,9 @@
 	<key>config</key>
 	<dict>
 		<key>defaultScreenName</key>
-		<string>ofr</string>
+		<string>hme</string>
 		<key>defaultScreenNameForNonLoggedUsers</key>
-		<string>ofr</string>
+		<string>hme</string>
 	</dict>
 </dict>
 </plist>

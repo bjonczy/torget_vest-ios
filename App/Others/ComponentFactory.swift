@@ -61,8 +61,14 @@ class ComponentFactory {
     public func create(with type: ComponentFactoryInputType, name: String? = nil) -> AnyObject {
         switch type {
         case .identity:
+            let behaviours = IdentityBehaviours(applicationService: UIApplication.shared.delegate as! AuthenticationApplicationService)
+            behaviours.customSectionsActions = ["license_plate": {
+                AppRouter.shared.navigate(to: "prk", with: nil)
+            }]
+            behaviours.hideRegistrationFormItemTypes = [FormItemType.licensePlate]
+            
             let component = IdentityComponent(
-                behaviours: IdentityBehaviours(applicationService: UIApplication.shared.delegate as! AuthenticationApplicationService),
+                behaviours: behaviours,
                 router: AppRouter.self,
                 analytics: IdentityAnalytics(tracker: _DMPTracker.shared),
                 iosKitComponent: ComponentFactory.shared.make(.iOSKit) as! iOSKitComponent,
