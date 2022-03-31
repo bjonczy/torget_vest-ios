@@ -3,7 +3,7 @@ PODS:
     - iAnalytics
     - iOSKit
     - ReachabilitySwift (~> 3.0.0)
-  - Articles (4.17.1):
+  - Articles (4.18.0):
     - Analytics
     - CarbonKit
     - CHTCollectionViewWaterfallLayout
@@ -53,7 +53,7 @@ PODS:
     - GoogleToolboxForMac/Defines (= 2.3.2)
   - Hero (1.6.1)
   - iAnalytics (1.8.1)
-  - Identity (10.7.0):
+  - Identity (10.8.0):
     - Analytics
     - FlagKit
     - iAnalytics
@@ -64,7 +64,7 @@ PODS:
   - IGListDiffKit (4.0.0)
   - IGListKit (4.0.0):
     - IGListDiffKit (= 4.0.0)
-  - iOSKit (7.11.0):
+  - iOSKit (8.0.0):
     - Aspects (= 1.4.1)
     - FBSDKCoreKit (~> 12.3.2)
     - IGListKit
@@ -111,7 +111,7 @@ PODS:
     - MMDrawerController
     - Web
     - WelcomePages
-  - Offers (2.4.0):
+  - Offers (2.5.0):
     - Hero
     - iAnalytics
     - Identity
@@ -124,11 +124,11 @@ PODS:
     - DZNEmptyDataSet
     - iAnalytics
     - iOSKit
-  - Parking (0.4.0):
+  - Parking (0.5.0):
     - Identity
     - iOSKit
   - Protobuf (3.19.4)
-  - Pushr (4.10.0):
+  - Pushr (4.12.0):
     - Firebase (= 4.10.1)
     - Firebase/Core
     - Firebase/Messaging (= 4.10.1)
@@ -152,7 +152,7 @@ PODS:
     - iAnalytics
     - iOSKit
   - SwiftyBeaver (1.9.5)
-  - Translations (2.2.140)
+  - Translations (2.2.142)
   - vcs (4.3.1):
     - Analytics
     - iAnalytics
@@ -260,7 +260,7 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Analytics: e69bb36ccd1a4d5e3e7f3360aeceaca8e36ed884
-  Articles: be0bb71ce823d5fd0ffef440d073f71fed3cc432
+  Articles: c55f9d32f1d959d8af16fffc4cf22d5ac6b9798b
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
   CarbonKit: 1aea2ba5adaf70008ded1b0dc7176f1437aa6eca
   CHTCollectionViewWaterfallLayout: b989a459788d7657ac010e03bc0f7eedca95a420
@@ -277,10 +277,10 @@ SPEC CHECKSUMS:
   GoogleToolboxForMac: 8bef7c7c5cf7291c687cf5354f39f9db6399ad34
   Hero: 215865ba3ae41dd9bb08cd6c60a645529c6fc94b
   iAnalytics: f5f67bd87952f3c685c86d1ccc12eb7eb486d6cb
-  Identity: 56489b5fc247690341c247d459609dba6170863a
+  Identity: 915321e8cd7b8cad62d9872157165660590b025d
   IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
   IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
-  iOSKit: a7a09adf11ffb2ed54fe9c2cb53797d2fb292d34
+  iOSKit: 795bf85d3176fd4a5cd5491dc1ace76996f1b1ec
   IQDropDownTextField: 3d2e5728a2b83ff5dbb14cb9b497a80005124cbe
   IQKeyboardManager: 241cc94ccabc9deb8f8bd7d12f00d73288d13ecc
   KSCrash: 6689ba5c43800f831b68928ccdbcc8b201d4dd86
@@ -288,18 +288,18 @@ SPEC CHECKSUMS:
   MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
   Navigation: f2a51bec5264d0918bca5cff55e304c84ac28f71
-  Offers: f5785f67434e20456f9e380e5606a6985b080852
+  Offers: dfad478c72f0129dc4e2bb7b73e81f8b5c88dbc1
   OpeningHours: 2fc46c2d9fa4ebc0881c82ac0794e64f3b1b1451
-  Parking: 5f2a7711c7675ae4ab11f6d4186ae34f1253fb43
+  Parking: ccddbaf68c973183e1e9b87e5c55787fe4897883
   Protobuf: 235750e4696ff59fb07d949a9dbbc92b3c0700fe
-  Pushr: 6ca190f21997949e4ad8c205ffc28c4b12fb8e90
+  Pushr: 7d118f29e31dd8be6e3fac1c81f49675a18f0311
   ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
   Realm: 995d585bcf699aaff226715886c849a29dd3d07f
   RealmSwift: 35f284a537989f2187b413e5917091948cb87a3f
   Sentry: c6c852d5a982dd42de8c35f7da4116af6081ebbd
   Shops: 55ba2b3ecc4d0bbdd5092e0a30291e4671bc6d80
   SwiftyBeaver: 84069991dd5dca07d7069100985badaca7f0ce82
-  Translations: 4754effc24710fcaa489011606f7ec4dae7095e7
+  Translations: 049dc20f639f18c94d322044e3f3bf492850151b
   vcs: d88649f90f26f6ab05f811c038d2fc5ad6d69300
   Web: c4f59fbdd1a0e396eb0e46d14e1223c0fd8079f7
   WelcomePages: 8bd1158b4dae2e1913130545671a3431b43f3e1e
