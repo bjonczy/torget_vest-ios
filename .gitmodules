@@ -52,3 +52,12 @@
 [submodule "components/parking"]
 	path = components/parking
 	url = git@bitbucket.org:boost-development/parking-ios.git
+[submodule "components/notificationcenter"]
+	path = components/notificationcenter
+	url = git@bitbucket.org:boost-development/notificationcenter-ios.git
+[submodule "components/games"]
+	path = components/games
+	url = git@bitbucket.org:boost-development/games-ios.git
+[submodule "components/cars"]
+	path = components/cars
+	url = git@bitbucket.org:boost-development/cars-ios.git

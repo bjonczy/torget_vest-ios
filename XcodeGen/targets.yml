@@ -1,0 +1,58 @@
+targetTemplates:
+  Application:
+    platform: iOS
+    type: application
+    attributes:
+      ProvisioningStyle: Automatic
+    settings:
+      CODE_SIGN_ENTITLEMENTS: TorgetVest/DL/archived-expanded-entitlements.xcent
+      CODE_SIGN_IDENTITY: "Apple Development"
+      CODE_SIGN_STYLE: Automatic
+      INFOPLIST_FILE: "TorgetVest/Main/Info.plist"
+      GENERATE_INFOPLIST_FILE: false
+      LIBRARY_SEARCH_PATHS: "$(inherited) \"$(PLATFORM_DIR)/Developer/usr/lib\""
+      OTHER_LDFLAGS: "$(inherited)"
+      SDKROOT: iphoneos
+      TARGETED_DEVICE_FAMILY: 1
+      INFOPLIST_KEY_NSCameraUsageDescription: "Vi trenger tilgang til kameraet for å scanne QR-koder"
+      INFOPLIST_KEY_NSMicrophoneUsageDescription: "The app would like to access your microphone to be able to add audio to the video"
+      INFOPLIST_KEY_UIApplicationSceneManifest_Generation: true
+      INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: true
+      INFOPLIST_KEY_UILaunchScreen_Generation: true
+      INFOPLIST_KEY_UILaunchStoryboardName: "Launch Screen.storyboard"
+      INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+      INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: UIInterfaceOrientationLandscapeLeft
+      INFOPLIST_KEY_UIUserInterfaceStyle: Light
+      INFOPLIST_KEY_CFBundleDisplayName: "TorgetVest"
+    dependencies:
+      - target: NotificationService
+        embed: true
+        codeSign: false
+
+targets:
+  TorgetVest:
+    templates:
+      - Application
+    sources:
+      - path: ../TorgetVest
+  NotificationService:
+    type: app-extension
+    platform: iOS
+    sources: 
+      - path: ../NotificationService
+    settings:
+      base:
+        INFOPLIST_FILE: "NotificationService/Info.plist"
+        PRODUCT_BUNDLE_IDENTIFIER: "com.placewise.torget-vest.NotificationService"
+        GENERATE_INFOPLIST_FILE: true
+        INFOPLIST_KEY_CFBundleDisplayName: "NotificationService"
+        PRODUCT_MODULE_NAME: "TorgetVestNotificationService"
+        PRODUCT_NAME: "TorgetVest Notification Service"
+  TorgetVestUnitTests:
+    platform: iOS
+    type: bundle.unit-test
+    sources: ../TorgetVestTests
+    settings:
+      DEBUG_INFORMATION_FORMAT: "dwarf-with-dsym"
+    dependencies:
+      - target: TorgetVest
