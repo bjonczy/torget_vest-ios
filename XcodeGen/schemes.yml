@@ -1,0 +1,58 @@
+schemeTemplates:
+  SharedConfigScheme:
+    build:
+      config: ${configName}
+    run: 
+      config: ${configName}
+    test:
+      config: ${configName}
+    profile:
+      config: ${configName}
+    analyze:
+      config: ${configName}
+    archive:
+      config: ${configName}
+  AppScheme:
+    build:
+      targets: 
+        ${appTargetName}: all
+    run:
+      executable: ${appTargetName}
+
+schemes:
+  TorgetVestDebug:
+    templates:
+      - SharedConfigScheme
+      - AppScheme
+    templateAttributes:
+      configName: Debug
+      appTargetName: TorgetVest
+  TorgetVestDebugSimulator:
+    templates:
+      - SharedConfigScheme
+      - AppScheme
+    templateAttributes:
+      configName: DebugSimulator
+      appTargetName: TorgetVest
+  TorgetVestRelease:
+    templates:
+      - SharedConfigScheme
+      - AppScheme
+    templateAttributes:
+      configName: Release
+      appTargetName: TorgetVest
+  TorgetVestUnitTests:
+    templates:
+      - SharedConfigScheme
+    templateAttributes:
+      configName: DebugSimulator
+    build:
+      targets:
+        TorgetVestUnitTests: [test, run]
+    test:
+      gatherCoverageData: true
+      language: en
+      targets:
+        - name: TorgetVestUnitTests
+          parallelizable: false
+          randomExecutionOrder: true

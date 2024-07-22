@@ -1,0 +1,1 @@
+include: [XcodeGen/dependencies.yml, XcodeGen/project.yml, XcodeGen/schemes.yml, XcodeGen/targets.yml]
