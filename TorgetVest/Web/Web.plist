@@ -11,6 +11,8 @@
 			<string></string>
 			<key>url</key>
 			<string>https://tgv.pwg.ai/home</string>
+			<key>internalNavigation</key>
+			<true/>
 		</dict>
 		<key>name</key>
 		<string>hme</string>
@@ -28,6 +30,8 @@
 			<string></string>
 			<key>url</key>
 			<string>https://www.torgetvest.no/</string>
+			<key>internalNavigation</key>
+			<true/>
 		</dict>
 		<key>name</key>
 		<string>hpa</string>

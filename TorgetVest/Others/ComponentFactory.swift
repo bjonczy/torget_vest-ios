@@ -135,7 +135,8 @@ class ComponentFactory {
                 plist: NavigationPlist(),
                 session: UserSession.sharedSession,
                 subComponents: subcomponents,
-                behaviours: behaviours
+                behaviours: behaviours,
+                customization: NavigationCustom()
             )
             component.delegate = self
 
@@ -224,4 +225,10 @@ extension ComponentFactory: NavigationComponentDelegate {
         (make(.games) as? GamesComponent)?.checkGamesAvailability()
     }
 
+}
+
+struct NavigationCustom: NavigationCustomization {
+    func style(navigationCell: Navigation.NavigationTableViewCell) {
+        navigationCell.titleLabel.font = SystemFonts().bold.withSize(14)
+    }
 }

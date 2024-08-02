@@ -140,7 +140,7 @@ PODS:
     - GoogleUtilities/Privacy
   - Hero (1.6.3)
   - iAnalytics (1.9.2)
-  - Identity (12.0.11):
+  - Identity (12.0.12):
     - Analytics
     - FlagKit
     - iAnalytics
@@ -280,7 +280,7 @@ PODS:
     - iAnalytics
     - iOSKit
     - ProgressHUD
-  - WelcomePages (4.0.0):
+  - WelcomePages (4.0.1):
     - CarbonKit
     - iAnalytics
     - iOSKit
@@ -427,7 +427,7 @@ SPEC CHECKSUMS:
   GoogleUtilities: ea963c370a38a8069cc5f7ba4ca849a60b6d7d15
   Hero: 419d43384355b3168512bd8ac6a33aadd3dc575b
   iAnalytics: 4a156fa517f9da89c837b9053d95edec8aa8f05c
-  Identity: 70f9ec60b91c30a094f490b528a68798646edebb
+  Identity: 226cc6a4c992c8f0af0daab3a642ba08554cccae
   IGListDiffKit: 02d937d7e714d6f558771f284ed80668d483b522
   IGListKit: baf7e87b4c2262cd569c380e46ca5667a4a82c82
   iOSKit: b540260fdfd29219f19751eb6127a50607738f32
@@ -461,7 +461,7 @@ SPEC CHECKSUMS:
   Translations: 0e5a227cf00195020063d686f6e77036e3550c9a
   vcs: 7e367e80f681f16b95e0db8a2e1195251d90aa45
   Web: da193913bb1ea0cb1dbca50cc1bf7abe3ba32d77
-  WelcomePages: 7d61ea1095d67148383acff465e8118af3168fda
+  WelcomePages: 87713c028509a35abae7fdd0dbb2915fddcc0cc2
 
 PODFILE CHECKSUM: caedc28cd76a963b1f3ea54a674558bcbdc2aff0
 
