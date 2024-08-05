@@ -140,7 +140,7 @@ PODS:
     - GoogleUtilities/Privacy
   - Hero (1.6.3)
   - iAnalytics (1.9.2)
-  - Identity (12.0.12):
+  - Identity (12.0.13):
     - Analytics
     - FlagKit
     - iAnalytics
@@ -427,7 +427,7 @@ SPEC CHECKSUMS:
   GoogleUtilities: ea963c370a38a8069cc5f7ba4ca849a60b6d7d15
   Hero: 419d43384355b3168512bd8ac6a33aadd3dc575b
   iAnalytics: 4a156fa517f9da89c837b9053d95edec8aa8f05c
-  Identity: 226cc6a4c992c8f0af0daab3a642ba08554cccae
+  Identity: f9e62f3772246eadc50f1578ee1af462b7642c71
   IGListDiffKit: 02d937d7e714d6f558771f284ed80668d483b522
   IGListKit: baf7e87b4c2262cd569c380e46ca5667a4a82c82
   iOSKit: b540260fdfd29219f19751eb6127a50607738f32
