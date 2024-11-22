@@ -13,6 +13,8 @@ target 'TorgetVest' do
   pod 'MMDrawerController',         :git => "git@bitbucket.org:boost-development/mmdrawercontroller.git"
   pod 'CarbonKit',                  :git => "git@bitbucket.org:boost-development/ios_carbonkit.git"
   pod 'IQKeyboardManager',          '6.5.10'
+  pod 'IGListKit',                  '4.0.0'
+  pod 'SwiftyBeaver',               '1.9.5'
   pod 'iOSKit',                     :path => basePath + '/ioskit'
   pod 'vcs',                        :path => basePath + '/vcs'
   pod 'Offers',                     :path => basePath + '/offers'

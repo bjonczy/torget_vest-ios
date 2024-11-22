@@ -185,7 +185,11 @@ class ComponentFactory {
             return GamesComponent(
                 router: AppRouter.self,
                 identityComponent: identityComponent,
-                deepLinkHandler: DeepLinker(router: AppRouter.self, component: ComponentFactory.shared.make(.deepLinking) as! DLComponent)
+                deepLinkHandler: DeepLinker(
+                    router: AppRouter.self,
+                    component: ComponentFactory.shared.make(.deepLinking) as! DLComponent
+                ),
+                analytics: GamesAnalytics(tracker: _DMPTracker.shared)
             )
         case .cars:
             let identityComponent = ComponentFactory.shared.make(.identity) as! IdentityComponent
@@ -223,6 +227,7 @@ extension ComponentFactory: NavigationComponentDelegate {
     func didNavigate(to screenName: String, with arguments: PushParameters?) {
         (make(.notificationCenter) as? NotificationCenterComponent)?.checkNewNotifications()
         (make(.games) as? GamesComponent)?.checkGamesAvailability()
+        (make(.cars) as? CarsComponent)?.alertsHandler.displayQueueIfNeeded(at: UIApplication.shared)
     }
 
 }

@@ -1,6 +1,6 @@
 PODS:
-  - Alamofire (5.9.1)
-  - Analytics (5.2.2):
+  - Alamofire (5.10.1)
+  - Analytics (5.2.4):
     - iAnalytics
     - iOSKit
     - ReachabilitySwift (~> 3.0.0)
@@ -13,19 +13,19 @@ PODS:
     - Web
   - Aspects (1.4.1)
   - CarbonKit (1.1.6)
-  - Cars (1.1.0):
+  - Cars (1.1.1):
     - Identity
     - iOSKit
   - CHTCollectionViewWaterfallLayout (0.9.10):
     - CHTCollectionViewWaterfallLayout/Swift (= 0.9.10)
   - CHTCollectionViewWaterfallLayout/Swift (0.9.10)
   - DZNEmptyDataSet (1.8.1)
-  - FBAEMKit (17.0.2):
-    - FBSDKCoreKit_Basics (= 17.0.2)
-  - FBSDKCoreKit (17.0.2):
-    - FBAEMKit (= 17.0.2)
-    - FBSDKCoreKit_Basics (= 17.0.2)
-  - FBSDKCoreKit_Basics (17.0.2)
+  - FBAEMKit (17.0.3):
+    - FBSDKCoreKit_Basics (= 17.0.3)
+  - FBSDKCoreKit (17.0.3):
+    - FBAEMKit (= 17.0.3)
+    - FBSDKCoreKit_Basics (= 17.0.3)
+  - FBSDKCoreKit_Basics (17.0.3)
   - Firebase (9.0.0):
     - Firebase/Core (= 9.0.0)
   - Firebase/Core (9.0.0):
@@ -81,7 +81,8 @@ PODS:
     - GoogleUtilities/UserDefaults (~> 7.7)
     - nanopb (~> 2.30908.0)
   - FlagKit (2.2)
-  - Games (2.0.0):
+  - Games (2.0.3):
+    - iAnalytics
     - Identity
     - iOSKit
     - Navigation
@@ -139,8 +140,8 @@ PODS:
     - GoogleUtilities/Logger
     - GoogleUtilities/Privacy
   - Hero (1.6.3)
-  - iAnalytics (1.9.2)
-  - Identity (12.0.13):
+  - iAnalytics (1.9.4)
+  - Identity (12.0.15):
     - Analytics
     - FlagKit
     - iAnalytics
@@ -148,38 +149,28 @@ PODS:
     - IQDropDownTextField (~> 1.1.0)
     - IQKeyboardManager
     - Web
-  - IGListDiffKit (5.0.0)
-  - IGListKit (5.0.0):
-    - IGListDiffKit (= 5.0.0)
-  - iOSKit (10.0.6):
+  - IGListDiffKit (4.0.0)
+  - IGListKit (4.0.0):
+    - IGListDiffKit (= 4.0.0)
+  - iOSKit (10.0.7):
     - Alamofire
     - Aspects (= 1.4.1)
     - FBSDKCoreKit (~> 17.0.0)
     - IGListKit
     - KVNProgress (= 2.2.4)
     - Moya
-    - PhoneNumberKit
+    - PhoneNumberKit (= 3.7.7)
     - PluggableAppDelegate
     - PureLayout
     - RealmSwift (= 3.19.0)
     - SDWebImage
     - SDWebImageSVGCoder
-    - Sentry (= 3.13.1)
+    - Sentry (= 8.36.0)
     - SwiftyBeaver (>= 1.7.0)
     - SwiftyJSON
     - Translations
   - IQDropDownTextField (1.1.1)
   - IQKeyboardManager (6.5.10)
-  - KSCrash/Core (1.15.27):
-    - KSCrash/Reporting/Filters/Basic
-  - KSCrash/Recording (1.15.27):
-    - KSCrash/Recording/Tools (= 1.15.27)
-  - KSCrash/Recording/Tools (1.15.27)
-  - KSCrash/Reporting/Filters/Base (1.15.27):
-    - KSCrash/Recording
-  - KSCrash/Reporting/Filters/Basic (1.15.27):
-    - KSCrash/Recording
-    - KSCrash/Reporting/Filters/Base
   - KVNProgress (2.2.4)
   - MMDrawerController (0.6.0):
     - MMDrawerController/Core (= 0.6.0)
@@ -202,7 +193,7 @@ PODS:
     - nanopb/encode (= 2.30908.0)
   - nanopb/decode (2.30908.0)
   - nanopb/encode (2.30908.0)
-  - Navigation (5.0.0):
+  - Navigation (5.0.2):
     - CarbonKit
     - iAnalytics
     - Identity
@@ -211,10 +202,10 @@ PODS:
     - NotificationCenter
     - Web
     - WelcomePages
-  - NotificationCenter (2.0.1):
+  - NotificationCenter (2.0.2):
     - Identity
     - iOSKit
-  - Offers (4.0.9):
+  - Offers (4.0.11):
     - Hero
     - iAnalytics
     - Identity
@@ -230,17 +221,17 @@ PODS:
   - Parking (1.0.0):
     - Identity
     - iOSKit
-  - PhoneNumberKit (3.7.11):
-    - PhoneNumberKit/PhoneNumberKitCore (= 3.7.11)
-    - PhoneNumberKit/UIKit (= 3.7.11)
-  - PhoneNumberKit/PhoneNumberKitCore (3.7.11)
-  - PhoneNumberKit/UIKit (3.7.11):
+  - PhoneNumberKit (3.7.7):
+    - PhoneNumberKit/PhoneNumberKitCore (= 3.7.7)
+    - PhoneNumberKit/UIKit (= 3.7.7)
+  - PhoneNumberKit/PhoneNumberKitCore (3.7.7)
+  - PhoneNumberKit/UIKit (3.7.7):
     - PhoneNumberKit/PhoneNumberKitCore
   - PluggableAppDelegate (1.3.0)
   - ProgressHUD (14.1.1)
   - PromisesObjC (2.4.0)
   - PureLayout (3.1.9)
-  - Pushr (4.14.1):
+  - Pushr (4.14.3):
     - Firebase (= 9.0.0)
     - Firebase/Core
     - Firebase/Messaging
@@ -254,29 +245,26 @@ PODS:
   - Realm/Headers (3.19.0)
   - RealmSwift (3.19.0):
     - Realm (= 3.19.0)
-  - SDWebImage (5.19.4):
-    - SDWebImage/Core (= 5.19.4)
-  - SDWebImage/Core (5.19.4)
+  - SDWebImage (5.20.0):
+    - SDWebImage/Core (= 5.20.0)
+  - SDWebImage/Core (5.20.0)
   - SDWebImageSVGCoder (1.7.0):
     - SDWebImage/Core (~> 5.6)
-  - Sentry (3.13.1):
-    - Sentry/Core (= 3.13.1)
-    - Sentry/KSCrash (= 3.13.1)
-  - Sentry/Core (3.13.1)
-  - Sentry/KSCrash (3.13.1):
-    - KSCrash/Core (~> 1.15.12)
-  - Shops (6.0.2):
+  - Sentry (8.36.0):
+    - Sentry/Core (= 8.36.0)
+  - Sentry/Core (8.36.0)
+  - Shops (6.0.3):
     - DZNEmptyDataSet
     - iAnalytics
     - iOSKit
   - SwiftyBeaver (1.9.5)
   - SwiftyJSON (5.0.2)
-  - Translations (2.2.209)
-  - vcs (5.0.3):
+  - Translations (2.2.212)
+  - vcs (5.0.4):
     - Analytics
     - iAnalytics
     - iOSKit
-  - Web (5.4.2):
+  - Web (5.4.3):
     - iAnalytics
     - iOSKit
     - ProgressHUD
@@ -293,6 +281,7 @@ DEPENDENCIES:
   - Games (from `components/games`)
   - iAnalytics (from `components/ianalytics`)
   - Identity (from `components/identity`)
+  - IGListKit (= 4.0.0)
   - iOSKit (from `components/ioskit`)
   - IQKeyboardManager (= 6.5.10)
   - "MMDrawerController (from `git@bitbucket.org:boost-development/mmdrawercontroller.git`)"
@@ -303,6 +292,7 @@ DEPENDENCIES:
   - Parking (from `components/parking`)
   - Pushr (from `components/pushr`)
   - Shops (from `components/shops`)
+  - SwiftyBeaver (= 1.9.5)
   - Translations (from `components/translations`)
   - vcs (from `components/vcs`)
   - Web (from `components/web`)
@@ -333,7 +323,6 @@ SPEC REPOS:
     - IGListKit
     - IQDropDownTextField
     - IQKeyboardManager
-    - KSCrash
     - KVNProgress
     - Moya
     - nanopb
@@ -402,17 +391,17 @@ CHECKOUT OPTIONS:
     :git: "git@bitbucket.org:boost-development/mmdrawercontroller.git"
 
 SPEC CHECKSUMS:
-  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
-  Analytics: b299595760e53fce3046bcd7718bfe7ebb7260eb
+  Alamofire: 840d2a1ad82355b536ec6ba5f97e5bfa54600ca3
+  Analytics: aef71b80131a76d62b5104d2f216e8a3d756b510
   Articles: 101df35650f68099e46f6ba5f339ca6d9c5feb36
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
   CarbonKit: 1aea2ba5adaf70008ded1b0dc7176f1437aa6eca
-  Cars: bcc51a3b82e0604c75883e9f374159ce2badee4b
+  Cars: e5627915ad07fe0c77cedbc63374f5a73850cbcc
   CHTCollectionViewWaterfallLayout: b989a459788d7657ac010e03bc0f7eedca95a420
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
-  FBAEMKit: 619f96ea65427e8afca240d5b0f4703738dfdf5c
-  FBSDKCoreKit: a5f384db2e9ee84e98494fed8f983d2bd79accff
-  FBSDKCoreKit_Basics: d35c775aaf243a2d731dfae7be3a74b1987285ab
+  FBAEMKit: 9900b2edd99a2d21629a6277e6166f14c6215799
+  FBSDKCoreKit: 0791f8f68a8630931a4c12aa23a56cc021551596
+  FBSDKCoreKit_Basics: 46d6b472c0dd0a5a7e972c025033d1c567f54eb4
   Firebase: a876fadc5ea653a377693376fd4f885c62704512
   FirebaseAnalytics: ea4f6f4b604a20b4de4d3c7f7a2cb51d9a989040
   FirebaseCore: e4c0b5d9727eaee0b43f9ed00baff7500c188d7b
@@ -421,48 +410,47 @@ SPEC CHECKSUMS:
   FirebaseInstallations: 0a115432c4e223c5ab20b0dbbe4cbefa793a0e8e
   FirebaseMessaging: 411a61cde991cbd00b5b11c7a25e0c8f28c44990
   FlagKit: eca7dc89064b0c986302ba9acefad1bf80a435b1
-  Games: 8ea274a80c0c869f8279288d24e285aae33b195f
+  Games: 8459bde6b746f087550a4b3e8daf74efcd5b7f9b
   GoogleAppMeasurement: 2c2792d43ebdea0524adbc90cba9139721f3039b
   GoogleDataTransport: 6c09b596d841063d76d4288cc2d2f42cc36e1e2a
   GoogleUtilities: ea963c370a38a8069cc5f7ba4ca849a60b6d7d15
   Hero: 419d43384355b3168512bd8ac6a33aadd3dc575b
-  iAnalytics: 4a156fa517f9da89c837b9053d95edec8aa8f05c
-  Identity: f9e62f3772246eadc50f1578ee1af462b7642c71
-  IGListDiffKit: 02d937d7e714d6f558771f284ed80668d483b522
-  IGListKit: baf7e87b4c2262cd569c380e46ca5667a4a82c82
-  iOSKit: b540260fdfd29219f19751eb6127a50607738f32
+  iAnalytics: c6a32d6d3822d34a71e016124832baa802c75605
+  Identity: ef149f3980f7d659d567cd4951d4b49066399eef
+  IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
+  IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
+  iOSKit: e92bd5a591802887a18c4b898fe8ab0c846306ed
   IQDropDownTextField: 3d2e5728a2b83ff5dbb14cb9b497a80005124cbe
   IQKeyboardManager: 45a1fa55c1a5b02c61ac0fd7fd5b62bb4ad20d97
-  KSCrash: c97c661a989f4d1562e139b8a12bc77a8f08f76e
   KVNProgress: 541edcea5a1fef592aceac8d791a410d38cb499d
   MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
-  Navigation: 660e3d9b50b2c6e02e3b29757a815b66b904d7f3
-  NotificationCenter: 8310d0b5d68b0cfbae3f68f6c14d2e90556aabc7
-  Offers: 6f7580e1b8b7e265c56202f15a926462ddd9e54c
+  Navigation: 65a847c07fb933bc9eb5393e917a5a3ebafbc80f
+  NotificationCenter: 71d71beba5a26968ab3681ff0a8a50473cf0d16f
+  Offers: 67c51bac239d49cd14df931f482e0d85115e5474
   OpeningHours: 3f88b568e8faf698af19453c86f56ec92df0a896
   Parking: ab5b2f053f0f123496101f70176df5517f81397c
-  PhoneNumberKit: ced55861269312a5e3bc2ef82a58d6255b1c976a
+  PhoneNumberKit: 1f8bd4bdc79b58ea6f4ff69c7d91e38e4d566252
   PluggableAppDelegate: 94c85bf821d85661c843a86e1aafe0cc12a62634
   ProgressHUD: abb9136ae23c85204236828562cb9a8ec98efb44
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   PureLayout: 5fb5e5429519627d60d079ccb1eaa7265ce7cf88
-  Pushr: 0ac4219fbc7ca3c061c476435fecd740059a2cf2
+  Pushr: 68b414a01326367e2ddae62540b352e912054fc4
   ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
   Realm: 995d585bcf699aaff226715886c849a29dd3d07f
   RealmSwift: 35f284a537989f2187b413e5917091948cb87a3f
-  SDWebImage: 066c47b573f408f18caa467d71deace7c0f8280d
+  SDWebImage: 73c6079366fea25fa4bb9640d5fb58f0893facd8
   SDWebImageSVGCoder: 15a300a97ec1c8ac958f009c02220ac0402e936c
-  Sentry: c6c852d5a982dd42de8c35f7da4116af6081ebbd
-  Shops: f7192c4488879d95b49835e42ed1db63b36df97f
+  Sentry: f8374b5415bc38dfb5645941b3ae31230fbeae57
+  Shops: e9de512267d7d77b8007dbee0d4adecf9cfb5940
   SwiftyBeaver: 84069991dd5dca07d7069100985badaca7f0ce82
   SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
-  Translations: 0e5a227cf00195020063d686f6e77036e3550c9a
-  vcs: 7e367e80f681f16b95e0db8a2e1195251d90aa45
-  Web: da193913bb1ea0cb1dbca50cc1bf7abe3ba32d77
+  Translations: 0689e8d55cfcc04f5883f767ae7b45213e27c8da
+  vcs: 03d81e989198dcec02b59ed656c7d2ac884edee0
+  Web: 2740b09842967fafd2ac52dbb9575370cbeff124
   WelcomePages: 87713c028509a35abae7fdd0dbb2915fddcc0cc2
 
-PODFILE CHECKSUM: caedc28cd76a963b1f3ea54a674558bcbdc2aff0
+PODFILE CHECKSUM: 098cf55fc12741c153e64bbe9945148342a3c5cf
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2
