@@ -196,7 +196,8 @@ class ComponentFactory {
             return CarsComponent(
                 identityComponent: identityComponent,
                 router: AppRouter.self,
-                analytics: CarsAnalytics(tracker: _DMPTracker.shared)
+                analytics: CarsAnalytics(tracker: _DMPTracker.shared),
+                deepLinkHandler: DeepLinker(router: AppRouter.self, component: ComponentFactory.shared.make(.deepLinking) as! DLComponent)
             )
         case .notificationCenter:
             let identityComponent = ComponentFactory.shared.make(.identity) as! IdentityComponent

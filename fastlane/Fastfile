@@ -1,0 +1,18 @@
+
+default_platform(:ios)
+platform :ios do
+    private_lane :setup_app_store_connect_api_key do
+        app_store_connect_api_key(
+        key_id: "6QN2H43K2X",
+        issuer_id: "feb53ec8-c7c0-4ae9-baf7-dc07b7e65a04",
+        key_filepath: "~/CI/credentials/appstore_connect_api_key.p8",
+        duration: 1200,
+        in_house: false
+        )
+    end
+    lane :testflight_production do |values|
+        setup_app_store_connect_api_key
+        build_app(workspace: "TorgetVest.xcworkspace", scheme: "TorgetVestRelease", xcargs: "-allowProvisioningUpdates")
+        upload_to_testflight(skip_waiting_for_build_processing: true)
+    end
+end
